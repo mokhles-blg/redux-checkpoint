@@ -1,0 +1,28 @@
+.task-card {
+  display: flex;
+  align-items: center;
+  margin: 2% 10%;
+  justify-content: space-around;
+}
+.three-btn-card{
+  justify-content: flex-end;
+  align-items: center;
+}
+.task-card span {
+  font-size: 20px;
+  width: 15%;
+  color: grey;
+  text-align: left;
+}
+
+.task-card Button {
+  margin: 0 3%;
+}
+
+Button {
+  width: 100px;
+}
+
+.done {
+  text-decoration: line-through;
+}
